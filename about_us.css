@@ -15,6 +15,75 @@ body{
     color:#222;
 }
 
+/* changing from here */
+
+
+/* NAVBAR */
+
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#07192f;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 8%;
+    z-index:1000;
+}
+
+.logo{
+    color:#fff;
+    font-size:30px;
+    font-weight:700;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#1ed760;
+}
+
+/* Responsiveness*/
+
+
+@media(max-width:900px){
+
+nav{
+    padding:18px 5%;
+}
+
+nav ul{
+    gap:18px;
+}
+
+@media(max-width:600px){
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+}
+}
+/* till Here */
+
 header{
     position:relative;
     height:100vh;
