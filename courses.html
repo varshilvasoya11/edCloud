@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="courses1.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav"><nav>
+    <div class="logo">
+        edCloud
+    </div>
+
+    <ul>
+        <li><a href="/mainy.html">Home</a></li>
+        <li><a href="/courses.html">Courses</a></li>
+        <li><a href="/Privecypolicy.html">Privacy Policy</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+</div>
+    <div class="chead">Courses</div>   
+    <div class="grid">
+      
+        
+     <!-- <div class="cc">
+    <img src="./web.png" alt="webDevelopment">
+    <h3>Web Development</h3>
+    <p>Learn HTML, CSS, JavaScript, and React.</p>
+    <button>Learn More</button>
+</div>
+
+<div class="cc">
+      <img src="./java.jpeg" alt="java programming">
+    <h3>Java Programming</h3>
+    <p>Master Java fundamentals, OOP, and collections.</p>
+    <button>Learn More</button>
+</div>
+
+<div class="cc">
+      <img src="./python.jpeg" alt="python">
+    <h3>Python Programming</h3>
+    <p>Learn Python for automation, web development, and AI.</p>
+    <button>Learn More</button>
+    
+</div>
+
+<div class="cc">
+      <img src="./dsa.jpeg" alt="dsa">
+    <h3>Data Structures & Algorithms</h3>
+    <p>Practice arrays, trees, graphs, and problem solving.</p>
+    <button>Learn More</button>
+</div>
+
+<div class="cc">
+      <img src="./dbms.jpeg" alt="Database Management system">
+    <h3>Database Management System</h3>
+    <p>Learn SQL, normalization, and database design.</p>
+    <button>Learn More</button>
+</div>
+
+<div class="cc">
+      <img src="./os.jpg" alt="operating System">
+    <h3>Operating Systems</h3>
+    <p>Understand processes, threads, memory, and scheduling.</p>
+    <button>Learn More</button>
+</div>
+
+<div class="cc">
+      <img src="./cn.jpeg" alt="Computer Networks">
+    <h3>ChatGPT & AI Tools-From Beginner to Expert</h3>
+    <p>Prompting</p>
+    <button>Learn More</button>
+
+</div>
+
+<div class="cc">
+      <img src="./cn.jpeg" alt="computer networks">
+    <h3>Machine Learning</h3>
+    <p>Explore supervised learning, regression, and neural networks.</p>
+    <button>Learn More</button>
+</div>
+     </div> -->
+
+     <script>
+    let grid=document.querySelector(".grid");
+//     const courses = [
+//   {
+//     title: "Web Development",
+//     image: "./web.png",
+//     alt: "Web Development",
+//     description: "Learn HTML, CSS, JavaScript, React, and build responsive websites."
+//   },
+//   {
+//     title: "Java Programming",
+//     image: "./java.jpeg",
+//     alt: "Java Programming",
+//     description: "Master Java fundamentals, OOP, collections, and multithreading."
+//   },
+//   {
+//     title: "Python Programming",
+//     image: "./python.jpeg",
+//     alt: "Python Programming",
+//     description: "Learn Python for automation, web development, data science, and AI."
+//   },
+//   {
+//     title: "Data Structures & Algorithms",
+//     image: "./dsa.jpeg",
+//     alt: "Data Structures and Algorithms",
+//     description: "Master arrays, linked lists, trees, graphs, and coding interview problems."
+//   },
+//   {
+//     title: "Database Management System",
+//     image: "./dbms.jpeg",
+//     alt: "Database Management System",
+//     description: "Learn SQL, normalization, transactions, indexing, and database design."
+//   },
+//   {
+//     title: "Operating Systems",
+//     image: "./os.jpg",
+//     alt: "Operating Systems",
+//     description: "Understand processes, threads, memory management, scheduling, and file systems."
+//   },
+//   {
+//     title: "ChatGPT & AI Tools",
+//     image: "./ai.jpeg",
+//     alt: "ChatGPT and AI Tools",
+//     description: "Master prompt engineering, AI productivity tools, and real-world AI applications."
+//   },
+//   {
+//     title: "Machine Learning",
+//     image: "./ml.jpeg",
+//     alt: "Machine Learning",
+//     description: "Explore supervised learning, regression, classification, and neural networks."
+//   }
+// ];
+
+     const courses = [
+  {
+    title: "Web Development",
+    image: "./web.png",
+    alt: "Web Development",
+    description: "Learn HTML, CSS, JavaScript, React, and build responsive websites."
+  },
+  {
+    title: "Java Programming",
+    image: "./java.jpeg",
+    alt: "Java Programming",
+    description: "Master Java fundamentals, OOP, collections, and multithreading."
+  },
+  {
+    title: "Python Programming",
+    image: "./python.jpeg",
+    alt: "Python Programming",
+    description: "Learn Python for automation, web development, data science, and AI."
+  },
+  {
+    title: "Data Structures & Algorithms",
+    image: "./dsa.jpeg",
+    alt: "Data Structures and Algorithms",
+    description: "Master arrays, linked lists, trees, graphs, and coding interview problems."
+  },
+  {
+    title: "Database Management System",
+    image: "./dbms.jpeg",
+    alt: "Database Management System",
+    description: "Learn SQL, normalization, transactions, indexing, and database design."
+  },
+  {
+    title: "Operating Systems",
+    image: "./os.jpg",
+    alt: "Operating Systems",
+    description: "Understand processes, threads, memory management, scheduling, and file systems."
+  },
+  {
+    title: "ChatGPT & AI Tools",
+    image: "./ai.jpeg",
+    alt: "ChatGPT and AI Tools",
+    description: "Master prompt engineering, AI productivity tools, and real-world AI applications."
+  },
+  {
+    title: "Machine Learning",
+    image: "./ml.jpeg",
+    alt: "Machine Learning",
+    description: "Explore supervised learning, regression, classification, and neural networks."
+  },
+  {
+    title: "Cyber Security",
+    image: "./cyber.jpeg",
+    alt: "Cyber Security",
+    description: "Learn ethical hacking, network security, cryptography, and threat detection."
+},{
+    title: "Cloud Computing",
+    image: "./cloud.jpeg",
+    alt: "Cloud Computing",
+    description: "Learn AWS, Azure, Google Cloud, virtualization, and cloud deployment."
+},
+{
+    title: "DevOps",
+    image: "./devops.jpeg",
+    alt: "DevOps",
+    description: "Master Docker, Kubernetes, CI/CD pipelines, Jenkins, and Git."
+},
+{
+    title: "C++ Programming",
+    image: "./cpp.jpeg",
+    alt: "C++ Programming",
+    description: "Learn C++, object-oriented programming, STL, and competitive programming."
+},
+{
+    title: "Android Development",
+    image: "./android.jpeg",
+    alt: "Android Development",
+    description: "Build Android apps using Kotlin, Jetpack Compose, and Firebase."
+},{
+    title: "C Programming",
+    image: "./c.jpeg",
+    alt: "C Programming",
+    description: "Learn C fundamentals, pointers, memory management, and file handling."
+},
+{
+    title: "C++ Programming",
+    image: "./cpp.jpeg",
+    alt: "C++ Programming",
+    description: "Master object-oriented programming, STL, templates, and algorithms."
+},
+{
+    title: "JavaScript",
+    image: "./javascript.jpeg",
+    alt: "JavaScript",
+    description: "Learn modern JavaScript, ES6+, DOM manipulation, and asynchronous programming."
+}
+];
+
+const container = document.querySelector(".courses");
+
+courses.forEach(course => {
+    // Main div
+    const card = document.createElement("div");
+    card.classList.add("cc");
+
+    // Image
+    const img = document.createElement("img");
+    img.src = course.image;
+    img.alt = course.alt;
+
+    // Heading
+    const h3 = document.createElement("h3");
+    h3.textContent = course.title;
+
+    // Paragraph
+    const p = document.createElement("p");
+    p.textContent = course.description;
+
+    // Button
+    const button = document.createElement("button");
+    button.textContent = "Learn More";
+
+    // Append elements to card
+    card.appendChild(img);
+    card.appendChild(h3);
+    card.appendChild(p);
+    card.appendChild(button);
+
+    // Append card to container
+    grid.appendChild(card);
+});
+let button=document.querySelectorAll("button");
+document.addEventListener('click',()=>{
+        
+        window.location.href ="course.html" ;
+    
+})
+     </script>
+</body>
+
+</html>
